@@ -22,6 +22,8 @@ function imprimirDatos(data) {
     id = "#00" + id;
   } else if (id.length === 2) {
     id = "#0" + id;
+  }else{
+    id = "#" + id
   }
 
   const card = document.createElement("div");
